@@ -4,9 +4,324 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New work</title>
+    <title>DARK WALLPAPER</title>
+
+    <style>
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 76%;
+}
+
+.logo img {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 50px;
+  color: white;
+  background-color: #333;
+}
+
+.search-bar {
+  position: relative;
+  
+}
+
+.search-bar i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: gray;
+  cursor: pointer;
+  
+}
+
+input[type="text"] {
+ border: 2px rgb(248, 251, 252);
+  margin-left: 30px;
+  width: 500px;
+  height: 30px;
+  padding: 8px;
+  background-color:rgba(255, 255, 255, 0.534);
+  border-radius: 12px;
+}
+
+select {
+  padding: 10px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 999;
+}
+
+.hidden {
+  display: none;
+}
+
+  .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-row {
+  display: flex;
+  justify-content: space-between;
+  width: 72%;
+}
+
+        images{
+            list-style-type: none;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 20px;
+    overflow: hidden;
+    background-color: #333
+
+            
+        }
+
+        p{
+            color: aliceblue;
+            text-align: center;
+            background-color: #333;
+            display: block;
+        }
+ul {
+    list-style-type: none;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 20px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+        .right button{
+          margin-top: 20px;
+            border: 2px soild red;
+            background-color:rgba(253, 196, 9, 0) ;
+            color: white;
+            font-size: large;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+            .right{
+               position: absolute;
+               right: 34px;
+               top: 22px;
+               display: inline-block;
+}
+
+        .menu{
+        color: white;
+        margin-top: 0px;
+        padding: 15px;
+        cursor: pointer;
+        font-size: large;
+        display: inline-block;
+        text-decoration: underline;
+
+
+}
+        .left img{
+            height: 80px;
+            padding-left:5px;
+            margin-left: 25px;
+            display: inline-block;
+            margin-top: 0%;
+        }
+
+        .left p{
+            margin-top: 10px;
+            color: brown;
+            margin-left: 0px;
+            font-size: large;
+            background-color: black;
+            margin-right: 88%;
+            padding-left: 1px;
+        }
+
+
+
+        .search button{
+            height: 50px;
+            width: 100px ;
+            border: 2px rgb(248, 251, 252);
+            background-color: rgba(101, 153, 250, 0.808);
+            border-radius: 12px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+
+
+        .heading h1{
+            color: white;
+            display: inline-block;
+        }
+
+    </style>
 </head>
-<body>
-    <h1>Hello my world</h1>
+
+<body background="./assets/img 3.jpg" style="background-repeat: no-repeat; background-size: cover;">
+
+  <header>
+    <div class="logo"><img src="./assets/img 11.png"></div>
+    <div class="text">MUHAMMAD's DARK WALLPAPER</div>
+    <div class="right"><button id="mybutton">Login</button>
+      <script src="script.js"></script>
+      <button id="b2">Sign up</button>
+    </div>
+  </header>
+
+     <hr>
+
+        <div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="news.asp">News</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./aboutus.html">About</a></li>
+              </ul>
+        </div> 
+
+        <center><form>
+            <div class="search-bar">
+              <input type="text" id="searchBar" placeholder="Search...">
+              <i class="fa fa-search"></i>
+            </div>
+            <select id="options" class="hidden">
+              <option value="Butt g">Option 1</option>
+              <option value="MS butt">Option 2</option>
+              <option value="yes">Option 3</option>
+            </select>
+          </form></center>
+          <script src="script.js"></script>
+        
+      <br><br>
+
+<div class="container">
+    <div class="image-row">
+      <img src="./assets/img 4.jpg" style="height: 300px
+      ; width: 500px;" alt="Image 1">
+      <img src="./assets/img 5.jpg" style="height: 300px; width: 500px;" alt="Image 2">
+      <img src="./assets/img 3.jpg" style="height: 300px; width: 500px;" alt="Image 3">
+    </div>
+
+    <div class="text-row">
+      <p>Dark City</p>
+      <p>Dark Iphone</p>
+      <p>Dark Road</p>
+      </div>
+
+      <div class="container">
+        <div class="image-row">
+          <img src="./assets/img 12.jpg" style="height: 300px; width: 500px;">
+          <img src="" style="height: 300px; width: 500px;">
+          <img src="" style="height: 300px; width: 500px;">
+        </div>
+        <div class="text-row">
+          <p>Dark City</p>
+          <p>Dark Iphone</p>
+          <p>Dark Road</p>
+          </div>
+      </div>
+      <div class="container">
+        <div class="image-row">
+          <img src="./assets/img 12.jpg" style="height: 300px; width: 500px;">
+          <img src="" style="height: 300px; width: 500px;">
+          <img src="" style="height: 300px; width: 500px;">
+        </div>
+        <div class="text-row">
+          <p>Dark City</p>
+          <p>Dark Iphone</p>
+          <p>Dark Road</p>
+          </div>
+      </div>
+      <div class="container">
+        <div class="image-row">
+          <img src="./assets/img 12.jpg" style="height: 300px; width: 500px;">
+          <img src="" style="height: 300px; width: 500px;">
+          <img src="" style="height: 300px; width: 500px;">
+        </div>
+        <div class="text-row">
+          <p>Dark City</p>
+          <p>Dark Iphone</p>
+          <p>Dark Road</p>
+          </div>
+      </div>
+      <div class="container">
+        <div class="image-row">
+          <img src="./assets/img 12.jpg" style="height: 300px; width: 500px;">
+          <img src="" style="height: 300px; width: 500px;">
+          <img src="" style="height: 300px; width: 500px;">
+        </div>
+        <div class="text-row">
+          <p>Dark City</p>
+          <p>Dark Iphone</p>
+          <p>Dark Road</p>
+          </div>
+      </div>
+      <div class="container">
+        <div class="image-row">
+          <img src="./assets/img 12.jpg" style="height: 300px; width: 500px;">
+          <img src="" style="height: 300px; width: 500px;">
+          <img src="" style="height: 300px; width: 500px;">
+        </div>
+        <div class="text-row">
+          <p>Dark City</p>
+          <p>Dark Iphone</p>
+          <p>Dark Road</p>
+          </div>
+      </div>
+      <div class="container">
+        <div class="image-row">
+          <img src="./assets/img 12.jpg" style="height: 300px; width: 500px;">
+          <img src="" style="height: 300px; width: 500px;">
+          <img src="" style="height: 300px; width: 500px;">
+        </div>
+        <div class="text-row">
+          <p>Dark City</p>
+          <p>Dark Iphone</p>
+          <p>Dark Road</p>
+          </div>
+      </div>
+
+      <footer>
+        <p>CopyRight</p>
+      </footer>
+
 </body>
 </html>
