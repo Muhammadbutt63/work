@@ -4,12 +4,163 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>CONTACT US</title>
+    <style>
+
+        h1{
+            color: white;
+            margin-left: 45%;
+        }
+nav {
+        background-color: #333;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        margin-left: 33%;
+        margin-right: 29.5%;
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+
+      li {
+        float: left;
+      }
+      a {
+        display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+      }
+
+      a:hover {
+        background-color: black;
+      }
+
+ header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 76%;
+}
+
+.logo img {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 50px;
+  color: white;
+  background-color: #333;
+}
+.right button{
+          margin-top: 20px;
+            border: 2px soild red;
+            background-color:rgba(253, 196, 9, 0) ;
+            color: white;
+            font-size: large;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+            .right{
+               position: absolute;
+               right: 34px;
+               top: 22px;
+               display: inline-block;
+}
+        
+        form {
+          max-width: 500px;
+          margin-left: 34%;
+          border: 2px solid black;
+          padding: 20px
+        }
+  
+        label {
+          display: block;
+          font-size: 18px;
+          margin-top: 20px;
+        }
+  
+        input,
+        textarea {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 5px;
+          margin-bottom: 20px;
+          font-size: 16px;
+        }
+  
+        input[type="submit"] {
+          background-color: brown;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 16px;
+        }
+  
+        input[type="submit"]:hover {
+          background-color: #45a049;
+        }
+      </style>
 </head>
-<body>
-<p>
-    <h1>Contact Me</h1>
-</p>
+
+<body background="./assets/img 3.jpg" style="background-repeat: no-repeat; background-size: cover;">
+    <header>
+        <div class="logo"><img src="./assets/img logo.jpeg"></div>
+        <div class="text">MUHAMMAD's DARK WALLPAPER</div>
+        <div class="right"><button id="mybutton">Login</button>
+          <script src="script.js"></script>
+          <button id="b2">Sign up</button>
+          <script src="script.js"></script>
+        </div>
+      </header>
+    
+         <hr>
+         <br>
+         <center><nav>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./aboutus.html">About</a></li>
+              <li><a href="https://live.geo.tv/">News</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </nav></center>
+         
+    <br>
+    <h1>CONTACT US</h1>
+    
+    <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+  
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required>
+  
+        <label for="message">Message</label>
+        <textarea id="message" name="message" ></textarea>
+  
+        <input type="submit" value="Submit"><
+    
+
     
 </body>
 </html>

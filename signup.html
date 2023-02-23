@@ -4,11 +4,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up Form</title>
+    <title>Sing Up Form</title>
+    <style>
+
+
+nav {
+        background-color: #333;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        margin-left: 33%;
+        margin-right: 29.5%;
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+
+      li {
+        float: left;
+      }
+      a {
+        display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+      }
+
+      a:hover {
+        background-color: black;
+      }
+        header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 76%;
+}
+
+.logo img {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 50px;
+  color: white;
+  background-color: #333;
+}
+.right button{
+          margin-top: 20px;
+            border: 2px soild red;
+            background-color:rgba(253, 196, 9, 0) ;
+            color: white;
+            font-size: large;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+            .right{
+               position: absolute;
+               right: 34px;
+               top: 22px;
+               display: inline-block;
+}
+
+
+
+        form {
+          max-width: 500px;
+          margin-left: 33%;
+          padding: 35px;
+          border: 1px solid black;
+          border-radius: 10px;
+          
+        }
+  
+        label {
+          display: block;
+          font-weight: bold;
+          margin-bottom: 10px;
+          color: aliceblue;
+        }
+  
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-size: 16px;
+          
+        }
+  
+        input[type="submit"] {
+          background-color: brown;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 16px;
+        }
+  
+        input[type="submit"]:hover {
+          background-color: brown;
+        }
+      </style>
 </head>
-<body>
-    <p>
-        <h1>Sign up Form</h1>
-    </p>
+<body background="./assets/img 3.jpg" style="background-repeat: no-repeat; background-size: cover;">
+    <header>
+        <div class="logo"><img src="./assets/img logo.jpeg"></div>
+        <div class="text">MUHAMMAD's DARK WALLPAPER</div>
+        <div class="right"><button id="mybutton">Login</button>
+          <script src="script.js"></script>
+          <button id="b2">Sign up</button>
+        </div>
+      </header>
+    
+         <hr>
+         <br>
+         <center><nav>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./aboutus.html">About</a></li>
+              <li><a href="https://live.geo.tv/">News</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </nav></center>
+         
+    <br>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+  
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+  
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+  <center> <input type="submit" value="Sign Up"></center>
+       
+      </form>
 </body>
 </html>
